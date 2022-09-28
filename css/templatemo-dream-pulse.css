@@ -33,7 +33,7 @@ a {
 }
 
 .tm-color-primary {
-  color: #00509f;
+  color: #00509fee;
 }
 
 .tm-color-gray {
@@ -45,9 +45,9 @@ a {
 }
 
 .tm-bg-white-transparent {
-  border: 1px solid #a8a8a8;
+  border: 1px solid #9d9d9d;
   border-radius: 10% 25%;
-  background-color: #00509f63;
+  background-color: #00509f97;
 }
 
 .tm-intro {
