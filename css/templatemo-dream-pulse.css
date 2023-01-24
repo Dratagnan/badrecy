@@ -12,7 +12,7 @@ body {
   font-weight: 400;
   overflow-x: hidden;
   color: #707172;
-  background-color: rgb(180, 180, 180);
+  background-color: rgb(255, 255, 255);
 }
 
 p {
@@ -71,8 +71,8 @@ a {
   display: flex;
   align-items: center;
   height: auto;
-  max-width: 1275px;
-  padding: 66px 60px;
+  max-width: 1350px;
+  padding: 30px 60px; 
 }
 
 #intro {
@@ -149,8 +149,9 @@ a {
 }
 
 .tm-section-wrap {
-  width: calc(100% - 400px);
-  margin-left: auto;
+  margin-top: 20px;
+  margin-right: 0px;
+  margin-left: 450px;
   margin-right: 0;
 }
 
@@ -234,10 +235,6 @@ a {
 .tm-footer-link:hover {
   color: #f93;
   text-decoration: none;
-}
-
-.tm-section-half {
-  padding: 55px;
 }
 
 .tm-section-icon {
@@ -366,6 +363,7 @@ a {
   opacity: 0;
 }
 
+
 .tm-gallery-item figure h2 {
   word-spacing: -0.15em;
   font-weight: 300;
@@ -474,6 +472,10 @@ figure.effect-bubba:hover p {
   max-width: 1040px;
 }
 
+.tm-client-img {
+  max-height: 100%;
+}
+
 .tm-w-80 {
   max-width: 80%;
 }
@@ -484,6 +486,7 @@ figure.effect-bubba:hover p {
 
 .tm-img-wrap {
   padding: 10px;
+  max-height: 100% !important;
 }
 
 .tm-img-wrap a {
@@ -492,7 +495,7 @@ figure.effect-bubba:hover p {
   justify-content: center;
   border: 1px solid #ccc;
   border-radius: 5px;
-  padding: 15px;
+
   width: 240px;
   height: 120px;
 }
