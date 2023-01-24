@@ -75,6 +75,10 @@ a {
   padding: 30px 60px; 
 }
 
+.img-fluid2 {
+  font-size: 2px !important; 
+}
+
 #intro {
   min-height: 100vh;
   max-width: none;
