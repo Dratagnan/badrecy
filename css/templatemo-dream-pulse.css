@@ -72,7 +72,11 @@ a {
   align-items: center;
   height: auto;
   max-width: 1350px;
-  padding: 60px 50px; 
+  padding: 35px 80px; 
+}
+
+.tm-section-half {
+  min-height: 500px;
 }
 
 #intro {
@@ -87,8 +91,10 @@ a {
 .tm-brand-box {
   box-sizing: content-box;
   width: 100%;
-  min-width: 400px;
+  min-width: 350px;
   min-height: 150px;
+  max-width: 200px;
+  max-height: 75px;
   color: rgb(255, 255, 255);
   text-align: center;
   margin: 70px 0px 90px;
@@ -101,7 +107,7 @@ a {
 }
 
 .tm-double-border-2 {
-  top: 10px;
+  top: -15px;
   left: 10px;
 }
 
@@ -110,11 +116,20 @@ a {
 }
 
 .tm-box-pad {
-  padding: 50px 55px;
+  padding: 30px 55px;
 }
 
 .tm-brand {
   padding: 30px;
+}
+
+.mapouter {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 50px;
+  margin-top: -70px;
+  width: 50%;
 }
 
 .tm-sidebar {
@@ -125,8 +140,8 @@ a {
   z-index: 100;
   padding-left: 70px;
   padding-right: 70px;
-  width: 400px;
-  max-width: 400px;
+  width: 390px;
+  max-width: 390px;
 }
 
 /* Hide scrollbar */
@@ -149,10 +164,9 @@ a {
 }
 
 .tm-section-wrap {
-  margin-top: 20px;
-  margin-right: 0px;
+  margin-top: 30px;
   margin-left: 450px;
-  margin-right: 0;
+  margin-right: 20px;
 }
 
 .tm-main-nav > li > a {
