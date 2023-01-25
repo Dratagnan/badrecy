@@ -76,7 +76,8 @@ a {
 }
 
 .tm-section-half {
-  min-height: 500px;
+  min-height: 620px;
+  margin-bottom: -40px;
 }
 
 #intro {
@@ -624,8 +625,9 @@ figure.effect-bubba:hover p {
     width: 250px;
     left: -250px;
     padding: 15px;
-    transition: all 0.3s ease;
+    transition: all 0.3s ease;    
   }
+
 
   .navbar-toggler {
     display: block;
