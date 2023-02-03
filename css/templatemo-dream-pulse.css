@@ -64,8 +64,8 @@ a {
 }
 
 .parallax-window {
-  min-height: 662px;
-  background: transparent;
+  min-height: screen;
+  min-width:100%;
 }
 
 .tm-section {
@@ -84,7 +84,6 @@ a {
 #intro {
   min-height: 100vh;
   max-width: none;
-  
 }
 
 .tm-brand {
@@ -274,8 +273,16 @@ a {
   .tm-gallery-wrap {
     max-width: 780px;
   }
+  .tm-section {
+    margin-right : auto;
+    padding: 0px, 0px;
+  }
 }
 
+@media (max-width: 1400px) {
+    
+
+}
 @media (max-width: 1200px) {
   .tm-gallery-wrap {
     max-width: 520px;
@@ -285,6 +292,9 @@ a {
 @media (max-width: 991px) {
   .tm-gallery-wrap {
     max-width: 780px;
+  }
+  .tm-brand-box {
+    max-width : 230px; 
   }
 }
 
@@ -297,6 +307,9 @@ a {
 @media (max-width: 480px) {
   .tm-gallery-wrap {
     max-width: 260px;
+  }
+  .tm-sidebar-sticky {
+    min-width: 350px;
   }
 }
 
@@ -569,12 +582,6 @@ figure.effect-bubba:hover p {
 }
 
 @media (max-width: 1600px) {
-  .tm-sidebar {
-    width: 30%;
-    max-width: none;
-    padding-left: 30px;
-    padding-right: 30px;
-  }
 
   .tm-social-link {
     margin: 5px;
@@ -592,6 +599,10 @@ figure.effect-bubba:hover p {
 
 .navbar-toggler {
   display: none;
+}
+
+@media (max-width: 1500px) {
+
 }
 
 @media (max-width: 991px) {
