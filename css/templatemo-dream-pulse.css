@@ -65,7 +65,7 @@ a {
 
 .parallax-window {
   min-height: screen;
-  min-width:100%;
+  min-width: 100%;
 }
 
 .tm-section {
@@ -73,7 +73,7 @@ a {
   align-items: center;
   height: auto;
   max-width: 1350px;
-  padding: 35px 80px; 
+  padding: 35px 80px;
 }
 
 .tm-section-half {
@@ -168,6 +168,10 @@ a {
   margin-top: 30px;
   margin-left: 450px;
   margin-right: 20px;
+}
+
+.tm-bg-white-transparent {
+  margin-left: 700px;
 }
 
 .tm-main-nav > li > a {
@@ -274,7 +278,7 @@ a {
     max-width: 780px;
   }
   .tm-section {
-    margin-right : auto;
+    margin-right: auto;
     padding: 0px, 0px;
   }
 }
@@ -310,7 +314,7 @@ a {
     max-width: 780px;
   }
   .tm-brand-box {
-    max-width : 230px; 
+    max-width: 230px;
   }
 }
 
@@ -407,7 +411,6 @@ a {
   font-size: 0;
   opacity: 0;
 }
-
 
 .tm-gallery-item figure h2 {
   word-spacing: -0.15em;
@@ -597,8 +600,21 @@ figure.effect-bubba:hover p {
   box-shadow: none;
 }
 
-@media (max-width: 1600px) {
+@media (max-width: 1850px) {
+  .tm-section-wrap {
+    margin-top: 30px;
+    margin-left: 450px;
+    margin-right: 20px;
+  }
 
+  .tm-bg-white-transparent {
+    margin-right: 100px;
+    margin-left: auto;
+  }
+
+}
+
+@media (max-width: 1600px) {
   .tm-social-link {
     margin: 5px;
   }
@@ -618,14 +634,47 @@ figure.effect-bubba:hover p {
 }
 
 @media (max-width: 1500px) {
+  .tm-section-wrap {
+    margin-top: 30px;
+    margin-left: 450px;
+    margin-right: 20px;
+  }
 
+  .tm-bg-white-transparent {
+    margin-right: 100px;
+    margin-left: auto;
+  }
+}
+
+@media (max-width: 1400px) {
+  .parallax-window {
+    background-size: screen;
+  }
 }
 
 @media (max-width: 991px) {
   .tm-bg-black-transparent {
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: #000000d1;
   }
-
+  img {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .tm-section{
+    justify-content: center;
+  }
+  .parallax-window {
+    background-size: cover;
+  }
+  .tm-section-wrap {
+    margin-top: 30px;
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+  .tm-bg-white-transparent {
+    margin-right: 0px;
+    margin-left: auto;
+  }
   .tm-brand-box {
     margin-top: 30px;
     margin-bottom: 30px;
@@ -650,12 +699,11 @@ figure.effect-bubba:hover p {
   }
 
   .tm-sidebar {
-    width: 250px;
-    left: -250px;
-    padding: 15px;
-    transition: all 0.3s ease;    
+    width: 350px;
+    left: -350px;
+    padding: 0px;
+    transition: all 0.3s ease;
   }
-
 
   .navbar-toggler {
     display: block;
