@@ -128,7 +128,7 @@ a {
 .mapouter {
   display: block;
   margin-left: auto;
-  margin-right: auto;
+  margin-right: 450px;
   margin-bottom: 50px;
   width: 50%;
 }
@@ -279,10 +279,26 @@ a {
   }
 }
 
-@media (max-width: 1400px) {
-    
-
+@media (max-width: 1300px) {
+  .mapouter {
+    display: block;
+    margin-left: 0px;
+    margin-right: 500px;
+    margin-bottom: 50px;
+    width: 500px;
+    height: 500px;
+  }
+  .gmap_canvas {
+    position: relative;
+    margin-right: auto;
+    overflow: hidden;
+    justify-content: center;
+    background: none !important;
+    height: 500px;
+    width: 500px;
+  }
 }
+
 @media (max-width: 1200px) {
   .tm-gallery-wrap {
     max-width: 520px;
