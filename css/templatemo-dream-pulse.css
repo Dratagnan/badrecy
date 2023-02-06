@@ -126,11 +126,7 @@ a {
 }
 
 .mapouter {
-  display: block;
-  margin-left: auto;
-  margin-right: 450px;
   margin-bottom: 50px;
-  width: 50%;
 }
 
 .tm-sidebar {
@@ -285,19 +281,13 @@ a {
 
 @media (max-width: 1300px) {
   .mapouter {
-    display: block;
-    margin-left: 0px;
-    margin-right: 500px;
-    margin-bottom: 50px;
+
     width: 500px;
     height: 500px;
   }
   .gmap_canvas {
     position: relative;
-    margin-right: auto;
     overflow: hidden;
-    justify-content: center;
-    background: none !important;
     height: 500px;
     width: 500px;
   }
@@ -315,6 +305,9 @@ a {
   }
   .tm-brand-box {
     max-width: 230px;
+  }
+  .mapouter {
+    margin-right: 120px;
   }
 }
 
@@ -606,6 +599,10 @@ figure.effect-bubba:hover p {
     margin-left: 450px;
     margin-right: 20px;
   }
+  .tm-brand-box {
+    margin-bottom: 20px;
+
+  }
 
   .tm-bg-white-transparent {
     margin-right: 100px;
@@ -618,7 +615,12 @@ figure.effect-bubba:hover p {
   .tm-social-link {
     margin: 5px;
   }
-
+  .tm-section{
+    justify-content: center;
+  }
+  .parallax-window {
+    background-size: cover;
+  }
   .tm-section-wrap {
     width: 70%;
   }
@@ -648,17 +650,21 @@ figure.effect-bubba:hover p {
 
 @media (max-width: 1400px) {
   .parallax-window {
-    background-size: screen;
-  }
+      background-size: cover;
+    }
+    .gmap_canvas {
+      margin-left: 7000px;
+    }
 }
+
 
 @media (max-width: 991px) {
   .tm-bg-black-transparent {
     background-color: #000000d1;
   }
-  img {
-    padding-left: 10px;
-    padding-right: 10px;
+  .mapouter {
+    margin-left: auto;
+    margin-right: auto;
   }
   .tm-section{
     justify-content: center;
@@ -756,7 +762,8 @@ figure.effect-bubba:hover p {
 
 @media (max-width: 554px) {
   .tm-section {
-    padding: 15px;
+    padding: 15px 15px 15px 15px;
+
   }
 }
 
