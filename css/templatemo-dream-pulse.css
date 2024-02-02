@@ -185,6 +185,28 @@ a {
   background-color: rgb(255, 255, 255);
 }
 
+.page-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin-left: 50px;
+}
+
+.video-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 100%;
+  text-align: center;
+  margin-top: 30px; 
+}
+
+video {
+  max-width: 100%;
+  height: auto;
+}
+
 .nav-link {
   font-size: 1.25rem;
   padding-top: 12px;
